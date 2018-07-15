@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Arrays;
 
-@Component
 public class LoggingMethodInterceptor implements HandlerInterceptor {
     Logger log = LoggerFactory.getLogger(LoggingMethodInterceptor.class);
 
