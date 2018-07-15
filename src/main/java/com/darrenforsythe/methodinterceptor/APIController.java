@@ -9,6 +9,6 @@ public class APIController {
 
     @GetMapping(value = "/hello/{placeholder}")
     public String hello(@PathVariable String placeholder) {
-        return "Hello" + placeholder;
+        return "Hello " + placeholder;
     }
 }
